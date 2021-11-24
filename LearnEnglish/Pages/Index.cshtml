@@ -1,0 +1,212 @@
+﻿@page
+@model IndexModel
+
+<head>
+    <link href="~/css/pages/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/pages/app.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/index/index.css">
+</head>
+
+<body>
+    <input type="button" tabindex="2" id="playAudio_song1" data-audio-src="" data-audio-name="line_" data-popupid="popup1" data-audio-highlight="true" name="playSong" pdfFieldName="playAudio g2_1_2" onclick="playAudio(this); song_setIndex(); viewAedioTextSong();" class="LearnNew_Rap playButton popup1" style="cursor:pointer;" />
+    <input type="button" tabindex="2" id="playAudio_song2" data-audio-src="" data-popupid="popup1" data-audio-highlight="true" name="playSong" pdfFieldName="playAudio g2_1_2" onclick="playAudio(this); song_setIndex(); viewAedioTextSong();" class="LearnNew_Rap playButton popup1" style="cursor:pointer;" />
+    <input type="button" id="closeBtn" class="closeBtn" onclick="song_clearIndexNew();  txtbgColorIndex();" style="opacity:0; " />
+    <img id="popup1" src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/index/img/popupSong.png" data-imgurl="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/index/img/popupSong.png" data-top="0%" class="popup" />
+    <label id="txtbgColor" data-seekTimeStart="1" class="bgColor"></label>
+    <div id="create_songText">
+    </div>
+    <div id="contentContainer">
+        <div id="jpedal" style="overflow: hidden; position: relative; width: 1160px; height: 1190px;">
+            <!-- Begin text definitions (Positioned/styled in CSS) -->
+
+            <div id="t3_1" class="t s2_1">The </div>
+            <div id="t4_1" class="t s3_1">Secret </div>
+            <div id="t5_1" class="t s3_1">Room</div>
+            <div id="t6_1" class="t s4_1">THE HOUSE</div>
+            <div id="t7_1" class="t s5_1" onclick="location.href='thehouse/thehouse.html'">THE HOUSE</div>
+            <div id="t8_1" class="t s6_1">S</div>
+            <div id="t9_1" class="t s7_1">c</div>
+            <div id="ta_1" class="t s8_1">a</div>
+            <div id="tb_1" class="t s6_1">r</div>
+            <div id="tc_1" class="t s7_1">f</div>
+            <div id="td_1" class="t s9_1">The</div>
+            <div id="te_1" class="t s2_1">An </div>
+            <div id="tf_1" class="t s10_1">Important </div>
+            <div id="tg_1" class="t s10_1">Case</div>
+            <div id="th_1" class="t s11_1">EVERY DAY</div>
+            <div id="ti_1" class="t s12_1" onclick="location.href='everyday/everyday.html'">EVERY DAY</div>
+            <div id="tj_1" class="t s13_1">10</div>
+            <div id="tk_1" class="t s14_1">The</div>
+            <div id="tl_1" class="t s15_1">Storm</div>
+            <div id="tm_1" class="t s16_1">Swap!</div>
+            <div id="tn_1" class="t s17_1">PARTY TIME</div>
+            <div id="to_1" class="t s18_1" onclick="location.href='partytime/partytime.html'">PARTY TIME</div>
+            <div id="tp_1" class="t s19_1">9</div>
+            <div id="tq_1" class="t s20_1">W</div>
+            <div id="tr_1" class="t s21_1">et</div>
+            <div id="ts_1" class="t s20_1">P</div>
+            <div id="tt_1" class="t s21_1">aint</div>
+            <div id="wel_1" class="t wel_1_1">WELCOME BACK</div>
+            <div id="wel_2" class="t wel_1_2" onclick="location.href='/welcomeback'">WELCOME BACK</div>
+            <div id="tu_1" class="t s22_1">GOOD TO KNOW</div>
+            <div id="tv_1" class="t s23_1" onclick="location.href='/goodtoknow'">GOOD TO KNOW</div>
+            <div id="tw_1" class="t s24_1">The</div>
+            <div id="tx_1" class="t s25_1">Den</div>
+            <div id="ty_1" class="t s4_1">WEATHER</div>
+            <div id="tz_1" class="t s26_1" onclick="location.href='weather/weather.html'">WEATHER</div>
+            <div id="t10_1" class="t s19_1">8</div>
+            <div id="t11_1" class="t s27_1">Dad’s </div>
+            <div id="t12_1" class="t s28_1">Jacket</div>
+            <div id="t13_1" class="t s19_1">1</div>
+            <div id="t14_1" class="t s4_1">WILD ANIMALS</div>
+            <div id="t15_1" class="t s29_1" onclick="location.href='/wildanimals'">WILD ANIMALS</div>
+            <div id="t16_1" class="t s19_1">3</div>
+            <div id="t17_1" class="t s19_1">2</div>
+            <div id="t18_1" class="t s11_1">LUNCH TIME</div>
+            <div id="t19_1" class="t s30_1" onclick="location.href='lunchtime/lunchtime.html'">LUNCH TIME</div>
+            <div id="t1a_1" class="t s31_1">OPPOSITES</div>
+            <div id="t1b_1" class="t s32_1" onclick="location.href='opposites/opposites.html'">OPPOSITES</div>
+            <div id="t1c_1" class="t s19_1">4</div>
+            <div id="t1d_1" class="t s33_1">AFTER SCHOOL</div>
+            <div id="t1e_1" class="t s34_1" onclick="location.href='afterschool/afterschool.html'">AFTER SCHOOL</div>
+            <div id="t1f_1" class="t s19_1">5</div>
+            <div id="t1g_1" class="t s19_1">6</div>
+            <div id="t1h_1" class="t s19_1">7</div>
+            <!-- End text definitions -->
+            <!-- Begin page background -->
+            <form>
+                <input type="button" tabindex="1" id="welcomeback" name="welcomeback" pdfFieldName="welcomeback" onclick="location.href='/welcomeback'" style="cursor:pointer;" title="WELCOME BACK" />
+                <input type="button" tabindex="2" id="wheel_welcomeback" data-popupid="popup1" onclick="setImgURL_welcomeback(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+              
+                <input type="button" tabindex="3" id="goodtoknow" name="goodtoknow" pdfFieldName="goodtoknow" onclick="location.href='/goodtoknow'" style="cursor:pointer;" title="GOOD TO KNOW" />
+                <input type="button" tabindex="4" id="wheel_goodtoknow" data-popupid="popup1" onclick="setImgURL_goodtoknow(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+
+                <input type="button" tabindex="5" id="ballon_goodtoknow" onclick="location.href='/balloon?type=goodtoknow&&chapter=good to know&&display=none'" style="cursor:pointer;" />
+
+                <input type="button" tabindex="6" id="wildanimals" name="wildanimals" pdfFieldName="wildanimals" onclick="location.href='/wildanimals'" style="cursor:pointer;" title="WILD ANIMALS" />
+                
+                <input type="button" tabindex="7" id="story_wildanimals" name="story_wildanimals" pdfFieldName="story_wildanimals" onclick="location.href='/wildanimals/page1'" style="cursor:pointer;" title="The Den" />
+                
+                <input type="button" tabindex="8" id="wheel_wildanimals" data-popupid="popup1" onclick="setImgURL_wildanimals(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+
+                <input type="button" tabindex="9" id="ballon_wildanimals" onclick="location.href='/balloon?type=wildanimals&&chapter=wild animal&&display=none'" style="cursor:pointer;" />
+                
+                <input type="button" tabindex="10" id="opposites" name="opposites" pdfFieldName="opposites" onclick="location.href='opposites/opposites.html'" style="cursor:pointer;" title="OPPOSITES" />
+                <input type="button" tabindex="11" id="story_opposites" name="story_opposites" pdfFieldName="story_opposites" onclick="location.href='opposites/page1.html'" style="cursor:pointer;" title="Wet Paint" />
+                <input type="button" tabindex="12" id="wheel_opposites" data-popupid="popup1" onclick="setImgURL_opposites(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+                <input type="button" tabindex="13" id="ballon_opposites" onclick="location.href='/balloon?type=opposites&&chapter=opposites&&display=none'" style="cursor:pointer;" />
+                <input type="button" tabindex="14" id="afterschool" name="afterschool" pdfFieldName="afterschool" onclick="location.href='afterschool/afterschool.html'" style="cursor:pointer;" title="AFTER SCHOOL" />
+                <input type="button" tabindex="15" id="story_afterschool" name="story_afterschool" pdfFieldName="story_afterschool" onclick="location.href='afterschool/page1.html'" style="cursor:pointer;" title="Swap!" />
+                <input type="button" tabindex="16" id="wheel_afterschool" data-popupid="popup1" onclick="setImgURL_afterschool(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+                <input type="button" tabindex="17" id="ballon_afterschool" onclick="location.href='../../ballon?type=afterschool&&grade=3'" style="cursor:pointer;" />
+                <input type="button" tabindex="18" id="lunchtime" name="lunchtime" pdfFieldName="lunchtime" onclick="location.href='lunchtime/lunchtime.html'" style="cursor:pointer;" title="LUNCH TIME" />
+                <input type="button" tabindex="19" id="story_lunchtime" name="story_lunchtime" pdfFieldName="story_lunchtime" onclick="location.href='lunchtime/page1.html'" style="cursor:pointer;" title="Dad's Jacket" />
+                <input type="button" tabindex="20" id="wheel_lunchtime" data-popupid="popup1" onclick="setImgURL_lunchtime(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+                <input type="button" tabindex="21" id="ballon_lunchtime" onclick="location.href='../../ballon?type=lunchtime&&grade=3'" style="cursor:pointer;" />
+                <input type="button" tabindex="22" id="weather" name="weather" pdfFieldName="weather" onclick="location.href='weather/weather.html'" style="cursor:pointer;" title="WEATHER" />
+                <input type="button" tabindex="23" id="story_weather" name="story_weather" pdfFieldName="story_weather" onclick="location.href='weather/page1.html'" style="cursor:pointer;" title="The Storm" />
+                <input type="button" tabindex="24" id="wheel_weather" data-popupid="popup1" onclick="setImgURL_weather(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+                <input type="button" tabindex="25" id="ballon_weather" onclick="location.href='../../ballon?type=weather&&grade=3'" style="cursor:pointer;" />
+                <input type="button" tabindex="26" id="partytime" name="partytime" pdfFieldName="partytime" onclick="location.href='partytime/partytime.html'" style="cursor:pointer;" title="PARTY TIME" />
+                <input type="button" tabindex="27" id="story_partytime" name="story_partytime" pdfFieldName="story_partytime" onclick="location.href='partytime/page1.html'" style="cursor:pointer;" title="The Scarf" />
+                <input type="button" tabindex="28" id="wheel_partytime" data-popupid="popup1" onclick="setImgURL_partytime(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+                <input type="button" tabindex="29" id="ballon_partytime" onclick="location.href='../../ballon?type=partytime&&grade=3'" style="cursor:pointer;" />
+                <input type="button" tabindex="30" id="everyday" name="everyday" pdfFieldName="everyday" onclick="location.href='everyday/everyday.html'" style="cursor:pointer;" title="EVERY DAY" />
+                <input type="button" tabindex="31" id="story_everyday" name="story_everyday" pdfFieldName="story_everyday" onclick="location.href='everyday/page1.html'" style="cursor:pointer;" title="An Important Case" />
+                <input type="button" tabindex="32" id="wheel_everyday" data-popupid="popup1" onclick="setImgURL_everyday(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+                <input type="button" tabindex="33" id="ballon_everyday" onclick="location.href='../../ballon?type=everyday&&grade=3'" style="cursor:pointer;" />
+                <input type="button" tabindex="34" id="thehouse" name="thehouse" pdfFieldName="thehouse" onclick="location.href='thehouse/thehouse.html'" style="cursor:pointer;" title="THE HOUSE" />
+                <input type="button" tabindex="35" id="story_thehouse" name="story_thehouse" pdfFieldName="story_thehouse" onclick="location.href='thehouse/page1.html'" style="cursor:pointer;" title="The Secret Room" />
+                <input type="button" tabindex="36" id="wheel_thehouse" data-popupid="popup1" onclick="setImgURL_thehouse(); song_setIndex(); showImage('popup1'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+                <input type="button" tabindex="37" id="ballon_thehouse" onclick="location.href='../../ballon?type=thehouse&&grade=3'" style="cursor:pointer;" />
+                <img src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/assets/images/copyright.png" data-toggle="modal" data-target="#modalCopyright" id="img_copyright" width="276" height="77" alt="" />
+            </form>
+            <div id="pg1Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+            <div id="pg1">
+                <object width="1160" height="1190" data="~/index/1.svg" type="image/svg+xml" id="svgImage" style="width:1160px; height:1190px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object>
+            </div>
+        </div>
+        <div class="leftSide" style="height: auto;width: auto;right:0;"></div>
+    </div>
+
+    <div class="modal fade" id="modalCopyright" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Majemas digitala läromedel är framtagna för presentation på datorer, surfplattor och interaktiva skrivtavlor.</p>
+                    <p>
+                        The Den – Text © Roderick Hunt 2006 Illustrationer © Alex Brychta 2006
+                        <br> Wet Paint - Text © Roderick Hunt 1997 Illustrationer © Alex Brychta 1997
+                        <br> Swap - Text © Roderick Hunt 1997 Illustrationer © Alex Brychta 1997
+                        <br> Dad´s Jacket - Text © Roderick Hunt 2006 Illustrationer © Alex Brychta 2006
+                        <br> The Storm - Text © Roderick Hunt 1986 Illustrationer © Alex Brychta 1986
+                        <br> The Scarf - Text © Roderick Hunt 1997 Illustrationer © Alex Brychta 1997
+                        <br> An Important Case - Text © Roderick Hunt 2006 Illustrationer © Alex Brychta 2006
+                        <br> The Secret Room - Text © Roderick Hunt 1986 Illustrationer © Alex Brychta 1986
+                    </p>
+                    <p>
+                        Dessa åtta verk publicerades ursprungligen på engelska år 1986, 1997, 2006.
+                        <br> Denna upplaga publicerades i samarbete med Oxford University Press.
+                        <br> Oxford Reading Tree karaktärerna i dessa verk skapades av Roderick Hunt och Alex Brychta, som behåller rättigheten till dessa karaktärer.
+                    </p>
+                    <p>
+                        The Den – Text © Roderick Hunt 2006 Illustrations © Alex Brychta 2006
+                        <br> Wet Paint - Text © Roderick Hunt 1997 Illustrations © Alex Brychta 1997
+                        <br> Swap - Text © Roderick Hunt 1997 Illustrations © Alex Brychta 1997
+                        <br> Dad´s Jacket - Text © Roderick Hunt 2006 Illustrations © Alex Brychta 2006
+                        <br> The Storm - Text © Roderick Hunt 1986 Illustrations © Alex Brychta 1986
+                        <br> The Scarf - Text © Roderick Hunt 1997 Illustrations © Alex Brychta 1997
+                        <br> An Important Case - Text © Roderick Hunt 2006 Illustrations © Alex Brychta 2006
+                        <br> The Secret Room - Text © Roderick Hunt 1986 Illustrations © Alex Brychta 1986
+                    </p>
+                    <p>
+                        These eight titles were originally published in England in 1986, 1997, 2006.
+                        <br> This edition is published under arrangement with Oxford University Press.
+                        <br> The Oxford Reading Tree characters in this work are the original creation of Roderick Hunt and Alex Brychta who retain copyright in the characters.
+                    </p>
+                    <p>
+                        <img src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/assets/images/majema-logo.jpg" id="img_majema_logo" width="276" height="77" alt="">
+                        <br> Box 4016, 131 04 Nacka, Tel 08 716 67 95
+                        <br>info@majema.se, majema.se
+                    </p>
+                    <p>© 2016 Sofia Hession, Sofia Panagiotidou, Annika Mårtensson, Marianne Billström och Majemaförlaget AB</p>
+                    <p>
+                        <b>Titel: Learn English Third Book lärarwebb Best.nr: 738</b>
+                        <br> Projektgrupp: Anna-Karin Holmgren, Annika Mårtensson, Katarina Neiman Hedensjö och Daniel Thamm-Sandelin
+                        <br> Redaktör: Anna-Karin Holmgren
+                        <br> Illustrationer: Stina Wiik
+                        <br> Form: Anna Bylund
+                        <br> Hörövningar: Voice Professional och Jo Rideout
+                        <br> Film: TTV AB, Nicole Hardy Gutniak, Elvis Furu Thomas, Isabella Tidd
+                        <br> Musikproduktion: Wihk Music Productions AB
+                        <br> Musik och arrangemang: Anders Wihk
+                        <br> Sång: Charlotte Wihk, Joakim Sandén och Anders Wihk
+                    </p>
+                    <p>
+                        Lärarwebben är baserad på elevboken Learn English Third Book, ISBN: 978-91-87011-87-0
+                        <br> © 2016 Sofia Hession, Sofia Panagiotidou, Annika Mårtensson, Marianne Billström och Majemaförlaget AB
+                        <br> Projektledare och redaktör: Katarina Neiman Hedensjö, Annika Mårtensson
+                        <br> Form och original: Anna Bylund
+                        <br> Omslag och illustration: Cecilia Johansson
+                        <br> Referenslärare: Stacey Burman (Senior Teaching and Learning Consultant, The Learning Trust, London), Neal Braxton
+                    </p>
+                    <p>
+                        Kopieringsförbud. Produkten får endast användas av licenstagaren i den egna undervisningen.
+                        <br> Det är ej tillåtet att kopiera och sprida produkten.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/index/index.min.js" type="text/javascript"></script>
+
+</body>
+
+
+

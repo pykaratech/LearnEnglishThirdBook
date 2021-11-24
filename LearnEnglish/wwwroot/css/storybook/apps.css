@@ -1,0 +1,23 @@
+
+.Demo .button.valijKapitel {
+    opacity:0.5;
+    filter: alpha(opacity=50);
+    cursor:default;
+    pointer-events:none;
+}
+
+.Demo .button.valijSida {
+    
+}
+
+.Demo .button.loggaout {
+    
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

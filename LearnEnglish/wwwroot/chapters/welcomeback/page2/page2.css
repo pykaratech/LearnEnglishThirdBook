@@ -1,0 +1,1717 @@
+ /* Begin embedded font definitions */
+
+ @font-face {
+     font-family: ELOZJI-MyriadPro-Bold4;
+     src: url("https://majemastoragetest.blob.core.windows.net/learn-english-test/content/fonts/MyriadPro-Bold.woff") format("woff");
+ }
+
+ @font-face {
+     font-family: ELOZJI-MajemaSkol4;
+     src: url("https://majemastoragetest.blob.core.windows.net/learn-english-test/content/fonts/MajemaSkol.woff") format("woff");
+ }
+
+ @font-face {
+     font-family: MyriadPro-Light;
+     src: url("https://majemastoragetest.blob.core.windows.net/learn-english-test/content/fonts/MyriadPro-Light.woff") format("woff");
+ }
+
+ @font-face {
+     font-family: ELOZJI-MyriadPro-Regular4;
+     src: url("https://majemastoragetest.blob.core.windows.net/learn-english-test/content/fonts/MyriadPro-Regular.woff") format("woff");
+ }
+
+ @font-face {
+     font-family: ELOZJI-CoreCircus2DDot34;
+     src: url("https://majemastoragetest.blob.core.windows.net/learn-english-test/content/fonts/Circus-2d-Dot3.woff") format("woff");
+ }
+
+ @font-face {
+     font-family: ELOZJI-MyriadPro-Semibold4;
+     src: url("https://majemastoragetest.blob.core.windows.net/learn-english-test/content/fonts/MyriadPro-Semibold.woff") format("woff");
+ }
+
+ @font-face {
+     font-family: ELOZJI-CoreCircus4;
+     src: url("https://majemastoragetest.blob.core.windows.net/learn-english-test/content/fonts/Core-Circus.woff") format("woff");
+ }
+ /*End embedded font definitions */
+ /*Begin shared CSS values */
+
+ .t {
+     -webkit-transform-origin: top left;
+     -moz-transform-origin: top left;
+     -o-transform-origin: top left;
+     -ms-transform-origin: top left;
+     -webkit-transform: scale(0.25);
+     -moz-transform: scale(0.25);
+     -o-transform: scale(0.25);
+     -ms-transform: scale(0.25);
+     z-index: 2;
+     position: absolute;
+     white-space: pre;
+     overflow: visible;
+ }
+
+ .noselect {
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
+
+ #t1_4 {
+     left: 958px;
+     top: 1156px;
+     letter-spacing: 1px;
+     word-spacing: 0.2px;
+ }
+
+ #t2_4 {
+     left: 1031px;
+     top: 1156px;
+     letter-spacing: 0.8px;
+     word-spacing: 0.5px;
+ }
+
+ #t3_4 {
+     left: 325px;
+     top: 92px;
+     letter-spacing: -0.3px;
+     word-spacing: 0.3px;
+ }
+
+ #t4_4 {
+     left: 466px;
+     top: 238px;
+     letter-spacing: 1px;
+     word-spacing: 0.2px;
+ }
+
+ #t5_4 {
+     left: 473px;
+     top: 483px;
+     letter-spacing: 0.9px;
+     word-spacing: 0.2px;
+ }
+
+ #t6_4 {
+     left: 473px;
+     top: 733px;
+     letter-spacing: 0.8px;
+     word-spacing: 0.2px;
+ }
+
+ #t7_4 {
+     left: 480px;
+     top: 985px;
+     letter-spacing: 0.9px;
+     word-spacing: 0.2px;
+ }
+
+ #t8_4 {
+     left: 802px;
+     top: 165px;
+     letter-spacing: 1.8px;
+     word-spacing: 1px;
+ }
+
+ #t9_4 {
+     left: 802px;
+     top: 415px;
+     letter-spacing: 1.8px;
+     word-spacing: 1px;
+ }
+
+ #ta_4 {
+     left: 802px;
+     top: 665px;
+     letter-spacing: 1.8px;
+     word-spacing: 1px;
+ }
+
+ #tb_4 {
+     left: 802px;
+     top: 916px;
+     letter-spacing: 1.9px;
+     word-spacing: 0.8px;
+ }
+
+ #tc_4 {
+     left: 15px;
+     top: 147px;
+     letter-spacing: -11px;
+     word-spacing: -1.5px;
+ }
+
+ #td_4 {
+     left: 15px;
+     top: 146px;
+     letter-spacing: -12px;
+     word-spacing: -1.5px;
+ }
+
+ #te_4 {
+     left: 267px;
+     top: 24px;
+ }
+
+ #tf_4 {
+     left: 72px;
+     top: 967px;
+     letter-spacing: 3.2px;
+     word-spacing: 1px;
+ }
+
+ .s1_4 {
+     FONT-SIZE: 55px;
+     FONT-FAMILY: ELOZJI-MyriadPro-Semibold4;
+     color: rgb(0, 0, 0);
+ }
+
+ .s5_4 {
+     FONT-SIZE: 85.6px;
+     FONT-FAMILY: ELOZJI-CoreCircus4;
+     color: rgb(255, 255, 255);
+ }
+
+ .s7_4 {
+     FONT-SIZE: 150.2px;
+     FONT-FAMILY: ELOZJI-MyriadPro-Bold4;
+     color: rgb(255, 255, 255);
+     line-height: 1.5;
+ }
+
+ .s8_4 {
+     FONT-SIZE: 61.1px;
+     FONT-FAMILY: ELOZJI-MyriadPro-Semibold4;
+     color: rgb(255, 255, 255);
+ }
+
+ .s4_4 {
+     FONT-SIZE: 201.7px;
+     FONT-FAMILY: ELOZJI-MajemaSkol4;
+     color: rgb(0, 0, 0);
+     line-height: 1.6;
+ }
+
+ .s3_4 {
+     FONT-SIZE: 97.8px;
+     FONT-FAMILY: MyriadPro-Light;
+     color: rgb(0, 0, 0);
+ }
+
+ .s6_4 {
+     FONT-SIZE: 85.6px;
+     FONT-FAMILY: ELOZJI-CoreCircus2DDot34;
+     color: rgb(237, 127, 56);
+ }
+
+ .s2_4 {
+     FONT-SIZE: 103.9px;
+     FONT-FAMILY: ELOZJI-MyriadPro-Regular4;
+     color: rgb(0, 0, 0);
+ }
+ /*End inline CSS */
+
+ #tvalj1 {
+     left: 59px;
+     top: 224px;
+     letter-spacing: 3px;
+ }
+
+ #tvalj2 {
+     left: 71px;
+     top: 292px;
+     letter-spacing: 3px;
+ }
+
+ #form4_1 {
+     border-style: none;
+     z-index: 2;
+     position: absolute;
+     left: 65px;
+     top: 727px;
+     width: 84px;
+     height: 83px;
+     text-align: left;
+     background: transparent;
+     font: normal 6px Arial, Helvetica, sans-serif;
+ }
+
+ #call_page4_1 {
+     border-style: none;
+     z-index: 2;
+     position: absolute;
+     left: 47px;
+     top: 214px;
+     width: 126px;
+     height: 35px;
+     text-align: left;
+     background: transparent;
+     background-repeat: no-repeat;
+     font: normal 27px Arial, Helvetica, sans-serif;
+ }
+
+ #call_page4_2 {
+     border-style: none;
+     z-index: 2;
+     position: absolute;
+     left: 47px;
+     top: 282px;
+     width: 126px;
+     height: 35px;
+     text-align: left;
+     background: transparent;
+     background-repeat: no-repeat;
+     font: normal 27px Arial, Helvetica, sans-serif;
+ }
+
+ #call_page4_3 {
+     border-style: none;
+     z-index: 2;
+     position: absolute;
+     left: 57px;
+     top: 493px;
+     width: 47px;
+     height: 44px;
+     text-align: left;
+     background: transparent;
+     background-image: url("https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/images/Previous.png");
+     background-repeat: no-repeat;
+     font: normal 27px Arial, Helvetica, sans-serif;
+ }
+
+ .closeBtn {
+     border-style: none;
+     z-index: 2;
+     position: absolute;
+     width: 3.5%;
+     height: 7%;
+     background: transparent;
+     background-image: url("https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/WelcomeBack/page2/img/BtnClose.png");
+     cursor: pointer;
+     background-size: contain;
+     background-repeat: no-repeat;
+     /* opacity: 0; */
+ }
+
+ #popup1 {
+     z-index: 2;
+     left: 37.7%;
+     top: 11.6%;
+     width: 35.4%;
+     height: 18%;
+     border-radius: 1em;
+     cursor: pointer;
+ }
+
+ #popup2 {
+     z-index: 2;
+     left: 38%;
+     top: 33%;
+     width: 35%;
+     height: 17%;
+     border-radius: 1em;
+     cursor: pointer;
+ }
+
+ #popup3 {
+     z-index: 2;
+     left: 38%;
+     top: 53%;
+     width: 35.5%;
+     height: 18%;
+     border-radius: 1em;
+     cursor: pointer;
+ }
+
+ #popup4 {
+     z-index: 2;
+     left: 38%;
+     top: 75%;
+     width: 35.5%;
+     height: 18%;
+     border-radius: 1em;
+     cursor: pointer;
+ }
+
+ #popup5 {
+     z-index: 2;
+     left: 37.7%;
+     top: 11.6%;
+     width: 35.4%;
+     height: 18%;
+     border-radius: 1em;
+ }
+
+ .popup {
+     position: absolute;
+     opacity: 0;
+     -webkit-transition: all 0.4s ease-in;
+     -moz-transition: all 0.4s ease-in;
+     -o-transition: all 0.4s ease-in;
+     -ms-transition: all 0.4s ease-in;
+     transition: all 0.4s ease-in;
+ }
+
+ .clicked {
+     top: 2% !important;
+     width: 70% !important;
+     height: auto!important;
+     margin-left: auto;
+     margin-right: auto;
+     opacity: 1;
+     left: 15% !important;
+     right: 15% !important;
+     border: 2px solid black!important;
+     -webkit-box-shadow: 0px 0px 50px -1px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 0px 0px 50px -1px rgba(0, 0, 0, 0.75);
+     box-shadow: 0px 0px 50px -1px rgba(0, 0, 0, 0.75);
+     cursor: default;
+ }
+
+ #popup1.clicked {
+     cursor: default;
+ }
+
+ #popup2.clicked {
+     top: 2% !important;
+     height: auto!important;
+     cursor: default;
+ }
+
+ #popup3.clicked {
+     top: 2% !important;
+     height: auto!important;
+     cursor: default;
+ }
+
+ #popup4.clicked {
+     top: 2% !important;
+     height: auto!important;
+     cursor: default;
+ }
+
+ #playAudio_1_3 {
+     border-style: none;
+     z-index: 2;
+     position: absolute;
+     left: 59px;
+     top: 726px;
+     width: 97px;
+     height: 91px;
+     text-align: left;
+     background: transparent;
+ }
+
+ #audio {
+     border-style: none;
+     z-index: 2;
+     position: absolute;
+     left: 17.5%;
+     top: 21%;
+     display: none;
+ }
+
+ #playAudio_song1 {
+     border-style: none;
+     z-index: 0;
+     position: absolute;
+     left:15.9%;
+     top: 34px;
+     width: 58px;
+     height: 64px;
+     text-align: left;
+     background: transparent;
+     background-repeat: no-repeat;
+     border-color: #6C6565;
+     border-style: inset;
+     border-width: 0.15em;
+     display: none;
+     background-size: contain;
+     background-image: url("https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/images/songImg1.png");
+ }
+
+ #playAudio_song1:hover {
+     -webkit-box-shadow: 0px 0px 1px 4px rgba(242, 150, 84, 1);
+     -moz-box-shadow: 0px 0px 1px 4px rgba(242, 150, 84, 1);
+     box-shadow: 0px 0px 1px 4px rgba(242, 150, 84, 1);
+ }
+
+ #playAudio_song2 {
+     border-style: none;
+     z-index: 0;
+     position: absolute;
+     left:19.55%;
+     top: 34px;
+     width: 62px;
+     height: 64px;
+     text-align: left;
+     background: transparent;
+     background-repeat: no-repeat;
+     border-color: #6C6565;
+     border-style: inset;
+     border-width: 0.15em;
+     display: none;
+     background-size: contain;
+     background-image: url("https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/images/songImg2.png");
+ }
+
+ #playAudio_song2:hover {
+     -webkit-box-shadow: 0px 0px 1px 4px rgba(242, 150, 84, 1);
+     -moz-box-shadow: 0px 0px 1px 4px rgba(242, 150, 84, 1);
+     box-shadow: 0px 0px 1px 4px rgba(242, 150, 84, 1);
+ }
+
+ #txtbgColor {
+     left: 15.1%;
+     width: 70%;
+     top: 51.3%;
+     height: 10% !important;
+     z-index: -1;
+     background-color: #d5effd;
+     display: none;
+     position: absolute;
+ }
+
+ .songText {
+     position: absolute;
+     -webkit-transform-origin: top left;
+     -moz-transform-origin: top left;
+     -o-transform-origin: top left;
+     -ms-transform-origin: top left;
+     -webkit-transform: scale(0.25);
+     -moz-transform: scale(0.25);
+     -o-transform: scale(0.25);
+     -ms-transform: scale(0.25);
+     z-index: 2;
+     position: absolute;
+     white-space: nowrap;
+     overflow: visible;
+     FONT-SIZE:100px;
+     FONT-FAMILY: MyriadPro-Light;
+     font-weight: bold;
+     /*color: rgb(0,0,0);*/
+     color: #B2AFAD;
+     cursor: pointer;
+ }
+
+ #line_1,
+ #line_2,
+ #line_3,
+ #line_4,
+ #line_5,
+ #line_6,
+ #line_7,
+ #line_8,
+ #line_9,
+ #line_10,
+ #line_11,
+ #line_12,
+ #line_13,
+ #line_14,
+ #line_15,
+ #line_16,
+ #line_17,
+ #line_18,
+ #line_19,
+ #line_20,
+ #line_21,
+ #line_22,
+ #line_23,
+ #line_24,
+ #line_25 {
+     left: 21%;
+     display: none;
+     z-index: -1;
+ }
+
+ .ie .s7_4 {
+     line-height: 1.7;
+ }
+
+ .ieedge .s7_4 {
+     line-height: 1.5;
+ }
+
+ @media (device-width: 1920px) and (device-height: 1080px) {
+     #popup5.clicked {
+         top: 2% !important;
+         width: 70% !important;
+         height: 85% !important;
+         left: 15% !important;
+     }
+     #playAudio_song1 {
+         left: 15.9%;
+         top: 35px;
+         width: 60px;
+         height: 65px;
+     }
+     #playAudio_song2 {
+         left: 19.55%;
+         top: 35px;
+         width: 60px;
+         height: 65px;
+     }
+     .songText {
+         left: 20% !important;
+         FONT-SIZE: 120px!important;
+     }
+     #txtbgColor {
+         left: 15.1%;
+         width: 70%;
+         top: 51.3%;
+         height: 10% !important;
+     }
+     .closeBtn {
+         right: 14% !important;
+     }
+ }
+
+ @media (device-width: 1680px) and (device-height: 1050px) {
+     #popup1 {
+         width: 37.4%;
+     }
+     #popup2 {
+         width: 37.4%;
+     }
+     #popup3 {
+         width: 37.4%;
+     }
+     #popup4 {
+         width: 37.4%;
+     }
+     #popup5.clicked {
+         width: 69.8% !important;
+         left: 15% !important;
+         height: 84.5% !important;
+     }
+     .closeBtn {
+         right: 14% !important;
+     }
+     #playAudio_song1 {
+         left: 15.9%;
+         top: 35px;
+         width: 50px;
+         height: 55px;
+     }
+     #playAudio_song2 {
+         left: 19.55%;
+         top: 35px;
+         width: 50px;
+         height: 55px;
+     }
+     #txtbgColor {
+         top: 51% !important;
+         left: 15.2%;
+         width: 69.7%;
+     }
+     .songText {
+         left: 20% !important;
+         FONT-SIZE: 120px!important;
+     }
+ }
+
+
+ @media (device-width: 1600px) and (device-height: 900px) {
+     #popup5.clicked {
+         width: 69.8% !important;
+         left: 15% !important;
+         height: 84.5% !important;
+     }
+     #playAudio_song1 {
+         left: 15.9%;
+         top: 30px;
+         width: 45px;
+         height: 50px;
+     }
+     #playAudio_song2 {
+         left: 19.55%;
+         top: 30px;
+         width: 45px;
+         height: 50px;
+     }
+     #txtbgColor {
+         left: 15.2%;
+         width: 69.7%;
+     }
+     .songText {
+         FONT-SIZE: 100px!important;
+         left: 20% !important;
+     }
+ }
+
+ @media (device-width: 1440px) and (device-height: 900px) {
+     #popup1 {
+         width: 37.4%;
+     }
+     #popup2 {
+         width: 37.4%;
+     }
+     #popup3 {
+         width: 37.4%;
+     }
+     #popup4 {
+         width: 37.4%;
+     }
+     #popup5.clicked {
+         top: 2% !important;
+         width: 70% !important;
+         height: 82.9% !important;
+         margin-left: 0.5% !important;
+     }
+     #playAudio_song1 {
+         left: 15.9%;
+         top: 35px;
+         width: 45px;
+         height: 50px;
+     }
+     #playAudio_song2 {
+         left: 19.55%;
+         top: 35px;
+         width: 45px;
+         height: 50px;
+     }
+     #txtbgColor {
+         top: 51%;
+         left: 15.6%;
+         width: 69.8%;
+     }
+     .songText {
+         FONT-SIZE: 100px!important;
+         left: 20% !important;
+     }
+     .closeBtn {
+         right:13.5% !important;
+     }
+ }
+
+ @media (device-width: 1366px) and (device-height: 768px) {
+     #popup5.clicked {
+         top: 2% !important;
+         width: 70% !important;
+         height: 85% !important;
+         left: 15% !important;
+     }
+     #playAudio_song1 {
+         left: 15.9%;
+         top: 25px;
+         width: 40px;
+         height: 45px;
+     }
+     #playAudio_song2 {
+         left: 19.55%;
+         top: 25px;
+         width: 40px;
+         height: 45px;
+     }
+      #txtbgColor {
+        left: 15.18%;
+        width:69.95%;
+        top: 51%;
+        height: 10% !important;
+    }
+     .songText {
+         FONT-SIZE: 90px!important;
+         left: 20% !important;
+     }
+     .closeBtn {
+         right: 14% !important;
+     }
+ }
+
+ @media (device-width: 1280px) and (device-height: 1024px) {
+     #popup1 {
+         left: 32.7%;
+         width: 50.4%;
+     }
+     #popup2 {
+         left: 32.7%;
+         width: 50.4%;
+     }
+     #popup3 {
+         left: 32.7%;
+         width: 50.4%;
+     }
+     #popup4 {
+         left: 32.7%;
+         width: 50.4%;
+     }
+     #popup5.clicked {
+         width: 88% !important;
+         left: 6% !important;
+         height: 80% !important;
+     }
+     #playAudio_song1 {
+         left: 8%;
+         top: 35px;
+         width: 45px;
+         height: 50px;
+     }
+     #playAudio_song2 {
+         left: 12%;
+         top: 35px;
+         width: 45px;
+         height: 50px;
+     }
+     #txtbgColor {
+         left: 6.2%;
+         width: 87.7%;
+         top: 51%;
+     }
+     .songText {
+         FONT-SIZE: 100px!important;
+         left: 15% !important;
+     }
+     .closeBtn {
+         right: 14% !important;
+     }
+
+    #close_popup5{
+ left: 92% !important;
+    }
+
+ }
+
+ @media (device-width: 1280px) and (device-height: 960px) {
+     #popup1 {
+         left: 34.7%;
+         width: 46.4%;
+     }
+     #popup2 {
+         left: 34.7%;
+         width: 46.4%;
+     }
+     #popup3 {
+         left: 34.7%;
+         width: 46.4%;
+     }
+     #popup4 {
+         left: 34.7%;
+         width: 46.4%;
+     }
+     #popup5.clicked {
+         width: 84% !important;
+         left: 8% !important;
+         height: 82.1% !important;
+     }
+     #playAudio_song1 {
+         left: 9.5%;
+         top: 33px;
+         width: 45px;
+         height: 50px;
+     }
+     #playAudio_song2 {
+         left: 14.3%;
+         top: 33px;
+         width: 45px;
+         height: 50px;
+     }
+     #txtbgColor {
+         top: 51%;
+         left: 8.2%;
+         width: 83.8%;
+     }
+     .songText {
+         FONT-SIZE: 100px!important;
+         left: 15% !important;
+     }
+     .closeBtn {
+         left: 83%;
+     }
+     #close_popup5{
+    left: 90%;
+     }
+ }
+
+ @media (device-width: 1280px) and (device-height: 800px) {
+     #popup1 {
+         left: 37.7%;
+         width: 37.4%;
+     }
+     #popup2 {
+         left: 37.7%;
+         width: 37.4%;
+     }
+     #popup3 {
+         left: 37.7%;
+         width: 37.4%;
+     }
+     #popup4 {
+         left: 37.7%;
+         width: 37.4%;
+     }
+     #popup5.clicked {
+         top: 2% !important;
+         width: 70% !important;
+         height: 84% !important;
+         left: 15% !important;
+     }
+     #playAudio_song1 {
+         left: 15.9%;
+         top: 27px;
+         width: 40px;
+         height: 45px;
+     }
+     #playAudio_song2 {
+         left: 19.55%;
+         top: 27px;
+         width: 40px;
+         height: 45px;
+     }
+     #txtbgColor {
+         left: 15.2%;
+         width: 69.7%;
+     }
+     .songText {
+         FONT-SIZE:80px!important;
+         left: 20% !important;
+     }
+     .closeBtn {
+         right: 14%;
+     }
+ }
+
+ @media (device-width: 1280px) and (device-height: 720px) {
+     #popup1 {
+         width: 33.4%;
+     }
+     #popup2 {
+         width: 33.4%;
+     }
+     #popup3 {
+         width: 33.4%;
+     }
+     #popup4 {
+         width: 33.4%;
+     }
+     #popup5.clicked {
+         top: 2% !important;
+         width: 70% !important;
+         height: 85% !important;
+         left: 15% !important;
+     }
+     #playAudio_song1 {
+         left: 15.9%;
+         top: 25px;
+         width: 38px;
+         height: 42px;
+     }
+     #playAudio_song2 {
+         left: 19.55%;
+         top: 25px;
+         width: 38px;
+         height: 42px;
+     }
+     #txtbgColor {
+         top: 51%;
+         left: 15.2%;
+         width: 69.7%;
+     }
+     .songText {
+         FONT-SIZE: 80px!important;
+         left: 20% !important;
+     }
+     .closeBtn {
+         right: 14%;
+     }
+ }
+
+ @media (device-width: 1024px) and (device-height: 768px) {
+     #popup1 {
+         left: 32.3%;
+         width: 47%;
+     }
+     #popup2 {
+         left: 32%;
+         width: 47.3%;
+     }
+     .clicked {
+         width: 84% !important;
+         left: 8% !important;
+     }
+     #popup5.clicked {
+         width: 84% !important;
+         left: 8% !important;
+         height: 84% !important;
+     }
+     #playAudio_song1 {
+         left: 10%;
+         top: 27px;
+         width: 38px;
+         height: 42px;
+     }
+     #playAudio_song2 {
+         left: 14%;
+         top: 27px;
+         width: 38px;
+         height: 42px;
+     }
+     #txtbgColor {
+         left: 8.2%;
+         width: 84%;
+     }
+     .songText {
+         top: 51%;
+         FONT-SIZE: 80px!important;
+         left: 15% !important;
+     }
+     .closeBtn {
+         left: 90%;
+     }
+ }
+
+ @media (device-width: 2560px) and (device-height: 1440px) {
+     #popup1 {
+         width: 36%;
+     }
+     #popup2 {
+         width: 36%;
+     }
+     #popup3 {
+         width: 36%;
+     }
+     #popup4 {
+         width: 36%;
+     }
+     #popup5 {
+         width: 36%;
+     }
+     #popup5.clicked {
+         top: 2% !important;
+         width: 70% !important;
+         height: 83% !important;
+     }
+      #popup3.clicked {
+         top: 2% !important;
+         width: 70% !important;/*
+         height: 83% !important;*/
+     }
+     #playAudio_song1 {
+         left:15.9%;
+         top: 53px;
+         width: 60px;
+         height: 65px;
+     }
+     #playAudio_song2 {
+         left:19%;
+         top: 53px;
+         width: 60px;
+         height: 65px;
+     }
+     #txtbgColor {
+         top: 51%;
+         height: 9% !important;
+         left:15.08% !important;
+     }
+     .songText {
+         left: 20% !important;
+         FONT-SIZE:130px!important;
+     }
+
+ }
+
+ @media (device-width: 1600px) and (device-height: 1200px) {
+     #popup1 {
+         left: 31.5%;
+         width: 50%;
+     }
+     #popup2 {
+         left: 31.5%;
+         width: 50%;
+     }
+     #popup3 {
+         left: 31.5%;
+         width: 50%;
+     }
+     #popup4 {
+         left: 31.5%;
+         width: 50%;
+     }
+     #popup5 {
+         left: 31.5%;
+         width: 50%;
+     }
+     .clicked {
+         width: 84% !important;
+         left: 8% !important;
+
+     }
+      #popup5.clicked {
+        width: 84% !important;
+        left: 8% !important;
+        height: 82% !important;
+    }
+    .closeBtn {
+        right: 6.8% !important;
+    }
+    #playAudio_song1 {
+        left:9.9% !important;
+        top: 40px!important;
+        width: 55px!important;
+        height: 60px!important;
+    }
+    #playAudio_song2 {
+        left:14.3% !important;
+        top: 40px!important;
+        width: 55px!important;
+        height: 60px!important;
+    }
+    #txtbgColor {
+        left: 8.2% !important;
+        width: 83.9% !important;
+        top: 51% !important
+    }
+    .songText {
+        left: 15% !important;
+        FONT-SIZE: 120px!important;
+    }
+ }
+
+ @media (device-width: 1920px) and (device-height: 1200px) {
+     #popup1 {
+         left: 34.5%;
+         width: 41.5%;
+     }
+     #popup2 {
+         left: 34.5%;
+         width: 41.5%;
+     }
+     #popup3 {
+         left: 34.5%;
+         width: 41.5%;
+     }
+     #popup4 {
+         left: 34.5%;
+         width: 41.5%;
+     }
+     #popup5 {
+         left: 34.5%;
+         width: 41.5%;
+     }
+     #popup5.clicked {
+         top: 2% !important;
+         width: 70% !important;
+         height: 82% !important;
+     }
+     #playAudio_song1 {
+         left:15.9%;
+         top: 40px;
+         width: 55px;
+         height: 65px;
+     }
+     #playAudio_song2 {
+         left:19.55;
+         top: 40px;
+         width: 55px;
+         height: 65px;
+     }
+     #txtbgColor {
+         top: 51%;
+     }
+     .songText {
+         FONT-SIZE:120px!important;
+         left: 20% !important;
+     }
+ }
+
+ @media (device-width: 1280px) and (device-height: 1050px) {
+     #popup1 {
+         left: 30.4%;
+         width: 53.4%;
+     }
+     #popup2 {
+         left: 30.4%;
+         width: 53.4%;
+     }
+     #popup3 {
+         left: 30.4%;
+         width: 53.4%;
+     }
+     #popup4 {
+         left: 30.4%;
+         width: 53.4%;
+     }
+     #popup5 {
+         left: 30.4%;
+         width: 53.4%;
+     }
+     .clicked {
+         width: 84% !important;
+         left: 8% !important;
+         height: auto!important;
+     }
+    #popup5.clicked {
+        width: 84% !important;
+        left: 7.5% !important;
+        height: 79.7% !important;
+    }
+     .closeBtn {
+    right:8% !important;
+    }
+    #close_popup3 {
+        left: 89% !important;
+    }
+    #playAudio_song1 {
+        left:8.9%;
+        top: 34px;
+        width: 45px;
+        height: 50px;
+    }
+    #playAudio_song2 {
+        left:13.5%;
+        top: 34px;
+        width: 45px;
+        height: 50px;
+    }
+    #txtbgColor {
+        top: 50.5%;
+        left: 7.7%;
+        width: 83.98%;
+    }
+    .songText {
+        left: 15% !important;
+        FONT-SIZE: 100px!important;
+    }
+ }
+
+ @media (device-width: 1600px) and (device-height: 1024px) {
+     #popup1 {
+         left: 37.7%;
+         width: 38%;
+     }
+     #popup2 {
+         left: 37.7%;
+         width: 38%;
+     }
+     #popup3 {
+         left: 37.7%;
+         width: 38%;
+     }
+     #popup4 {
+         left: 37.7%;
+         width: 38%;
+     }
+#popup5.clicked {
+        width:69.75% !important;
+        left: 15% !important;
+        height: 84.1% !important;
+    }
+    #playAudio_song1 {
+        left: 15.9%;
+        top: 30px;
+        width: 45px;
+        height: 50px;
+    }
+    #playAudio_song2 {
+        left: 19.55%;
+        top: 30px;
+        width: 45px;
+        height: 50px;
+    }
+   #txtbgColor {
+    left: 15.1%;
+    width: 69.75%;
+}
+    .songText {
+        FONT-SIZE:100px!important;
+        left: 20% !important;
+    }
+    .closeBtn {
+        right:14.5% !important;
+    }
+ }
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+     #popup1.clicked,
+     #popup2.clicked,
+     #popup3.clicked,
+     #popup4.clicked {
+         top: 2% !important;
+         width: 88% !important;
+         left: 5% !important;
+         height: auto!important;
+     }
+
+    #close_popup1,
+    #close_popup2,
+    #close_popup3,
+    #close_popup4 {
+        top: 1% !important;
+        right: 4% !important;
+    }
+
+     #popup1 {
+       left: 24% !important;
+       width: 71% !important;
+      height: 13% !important;
+      top: 10.5% !important;
+     }
+     #popup2 {
+       left: 24% !important;
+  top: 26.5% !important;
+  width: 71% !important;
+  height: 14% !important;
+     }
+     #popup3 {
+   left: 24% !important;
+   top: 43.5% !important;
+   width: 71% !important;
+   height: 14% !important;
+     }
+     #popup4 {
+       left: 24% !important;
+       top: 60.5% !important;
+       width: 71% !important;
+       height: 14% !important;
+     }
+     /*#popup5.clicked {
+         top: 3% !important;
+         width: 90% !important;
+         height: 52% !important;
+         margin-left: -10%;
+     }
+     #close_popup5 {
+         top: 2% !important;
+         margin-right: -10% !important;
+     }*/
+     #popup5.clicked {
+        height: 52% !important;
+        width: 84% !important;
+        left: 9% !important;
+        top: 2% !important;
+    }
+    #txtbgColor {
+        top: 27.3% !important;
+        left: 9.3% !important;
+        width: 83.8% !important;
+        height: 6% !important;
+    }
+    .closeBtn {
+         left: 91% !important;
+         top: 1% !important;
+    }
+     #playAudio_song1 {
+         left: 85px;
+         top: 32px;
+         width: 36px;
+         height: 43px;
+     }
+     #playAudio_song2 {
+         left: 130px;
+         top: 32px;
+         width: 45px;
+         height: 43px;
+     }
+     /*#txtbgColor {
+        left: 5.3%;
+        width: 89.8%;
+         top: 27.5%;
+         height: 6% !important;
+     }*/
+     .songText {
+         FONT-SIZE: 60px !important;
+     }
+     #line_1,
+     #line_2,
+     #line_3,
+     #line_4,
+     #line_5,
+     #line_6,
+     #line_7,
+     #line_8,
+     #line_9,
+     #line_10,
+     #line_11,
+     #line_12,
+     #line_13,
+     #line_14,
+     #line_15,
+     #line_16,
+     #line_17,
+     #line_18,
+     #line_19,
+     #line_20,
+     #line_21,
+     #line_22,
+     #line_23,
+     #line_24,
+     #line_25,
+     #line_26,
+     #line_27,
+     #line_28,
+     #line_29,
+     #line_30,
+     #line_31,
+     #line_32,
+     #line_33,
+     #line_34,
+     #line_35,
+     #line_36,
+     #line_37,
+     #line_38,
+     #line_39,
+     #line_40,
+     #line_41,
+     #line_42,
+     #line_43,
+     #line_44,
+     #line_45,
+     #line_46,
+     #line_47,
+     #line_48,
+     #line_49,
+     #line_50,
+     #line_51,
+     #line_52,
+     #line_53,
+     #line_54,
+     #line_55,
+     #line_56,
+     #line_57,
+     #line_58,
+     #line_59,
+     #line_60,
+     #line_61,
+     #line_62,
+     #line_63,
+     #line_64 {
+         left: 15% !important;
+     }
+ }
+ /*for 13 version*/
+ @media all and (device-width: 810px) and (device-height: 1080px) and (orientation:portrait) {
+   #popup1 {
+    left: 24% !important;
+    width: 69% !important;
+    height: 13% !important;
+    top: 9.5% !important;
+}
+#popup2 {
+  left: 24% !important;
+top: 25.5% !important;
+width: 69% !important;
+height: 13% !important;
+}
+#popup3 {
+left: 24% !important;
+top: 41.5% !important;
+width: 69% !important;
+height: 13% !important;
+}
+#popup4 {
+  left: 24% !important;
+  top: 57.5% !important;
+  width: 69% !important;
+  height: 13% !important;
+}
+ }
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+     #popup1.clicked,
+     #popup2.clicked,
+     #popup3.clicked,
+     #popup4.clicked {
+         top: 2% !important;
+         width: 88% !important;
+         left: 5% !important;
+         height: auto!important;
+     }
+     #close_popup1,
+     #close_popup2,
+     #close_popup3,
+     #close_popup4 {
+         top: 1% !important;
+         right: 4% !important;
+     }
+
+     #popup1 {
+       left: 32.5% !important;
+       top: 12% !important;
+        width: 48% !important;
+   height: 18% !important;
+
+     }
+     #popup2 {
+       left: 32.5% !important;
+   width: 48% !important;
+   height: 18% !important;
+        top: 33% !important;
+     }
+     #popup3 {
+       left: 32.5% !important;
+   width: 48% !important;
+   height: 18% !important;
+        top: 53.5% !important;
+
+     }
+     #popup4 {
+       left: 32.5% !important;
+   width: 48% !important;
+   height: 18% !important;
+        top: 74.5% !important;
+
+     }
+     /*#popup5.clicked {
+           height: 80% !important;
+    width: 864px !important;
+    left: 3% !important;
+        margin-left: 4%;
+     }*/
+     /*#close_popup5 {
+         top: 1% !important;
+        margin-right: -6% !important;
+     }*/
+     #playAudio_song1 {
+          left: 110px;
+        top: 28px;
+        width: 35px;
+        height: 37px;
+     }
+     #playAudio_song2 {
+            left: 155px;
+        top: 28px;
+        width: 38px;
+        height: 37px;
+     }
+     /*#txtbgColor {
+         left: 7.4%;
+        width: 84%;
+        top: 52.5%;
+        height: 6% !important;
+     }
+     .songText {
+         FONT-SIZE: 446%;
+     }*/
+     #popup5.clicked {
+        height: 80% !important;
+        width: 84% !important;
+        left: 9% !important;
+        top: 2% !important;
+    }
+
+    #txtbgColor {
+        top: 52% !important;
+        left: 9.2% !important;
+        width: 84% !important;
+        height: 6% !important;
+    }
+
+    .closeBtn {
+         left: 91% !important;
+    }
+
+    .songText {
+          FONT-SIZE: 60px !important;
+    }
+     #line_1,
+     #line_2,
+     #line_3,
+     #line_4,
+     #line_5,
+     #line_6,
+     #line_7,
+     #line_8,
+     #line_9,
+     #line_10,
+     #line_11,
+     #line_12,
+     #line_13,
+     #line_14,
+     #line_15,
+     #line_16,
+     #line_17,
+     #line_18,
+     #line_19,
+     #line_20,
+     #line_21,
+     #line_22,
+     #line_23,
+     #line_24,
+     #line_25,
+     #line_26,
+     #line_27,
+     #line_28,
+     #line_29,
+     #line_30,
+     #line_31,
+     #line_32,
+     #line_33,
+     #line_34,
+     #line_35,
+     #line_36,
+     #line_37,
+     #line_38,
+     #line_39,
+     #line_40,
+     #line_41,
+     #line_42,
+     #line_43,
+     #line_44,
+     #line_45,
+     #line_46,
+     #line_47,
+     #line_48,
+     #line_49,
+     #line_50,
+     #line_51,
+     #line_52,
+     #line_53,
+     #line_54,
+     #line_55,
+     #line_56,
+     #line_57,
+     #line_58,
+     #line_59,
+     #line_60,
+     #line_61,
+     #line_62,
+     #line_63,
+     #line_64 {
+         left: 18% !important;
+     }
+ }
+ /*for 13 version*/
+ @media all and (device-width: 810px) and (device-height: 1080px) and (orientation:landscape) {
+   #popup1 {
+    left: 32.5% !important;
+    width: 47% !important;
+    height: 17% !important;
+    top: 11.5% !important;
+   }
+
+   #popup2 {
+     left: 32.5% !important;
+     width: 47% !important;
+     height: 17% !important;
+      top: 31% !important;
+   }
+   #popup3 {
+     left: 32.5% !important;
+     width: 47% !important;
+     height: 17% !important;
+      top: 50.5% !important;
+
+   }
+   #popup4 {
+     left: 32.5% !important;
+     width: 47% !important;
+     height: 17% !important;
+      top: 70.5% !important;
+
+   }
+
+}
+ /*media query css  2880px  and 1800px*/
+
+ @media (device-width: 2880px) and (device-height: 1800px) {
+     #playAudio_song1 {
+         left: 470px;
+         top: 49px;
+         width: 46px;
+         height: 54px;
+     }
+     #playAudio_song2 {
+         left: 540px;
+         top: 49px;
+         width: 46px;
+         height: 54px;
+     }
+     #txtbgColor {
+         height: 8% !important;
+     }
+     #popup5.clicked {
+         height: 80% !important;
+     }
+     #popup1 {
+         left: 37.5%;
+         top: 11.6%;
+         width: 40.4%;
+         height: 18%;
+     }
+     #popup2 {
+         left: 37.5%;
+         width: 40.4%;
+         height: 18%;
+     }
+     #popup3 {
+         left: 37.5%;
+         width: 40.4%;
+         height: 18%;
+     }
+     #popup4 {
+         left: 37.5%;
+         width: 40.4%;
+         height: 18%;
+     }
+       .mac .songText{
+                font-size: 160px !important;
+             }
+ }
+ /*media  query css  2560px  and 1600px*/
+
+ @media (device-width: 2560px) and (device-height: 1600px) {
+     #playAudio_song1 {
+         left: 420px;
+         top: 45px;
+         width: 46px;
+         height: 54px;
+     }
+     #playAudio_song2 {
+         left: 480px;
+         top: 45px;
+         width: 46px;
+         height: 54px;
+     }
+     #txtbgColor {
+         height: 8% !important;
+     }
+     #popup5.clicked {
+         height: 80% !important;
+     }
+     #popup1 {
+         left: 37.7%;
+         top: 11.6%;
+         width: 40.4%;
+         height: 18%;
+     }
+     #popup2 {
+         left: 37.7%;
+         width: 40.4%;
+         height: 18%;
+     }
+     #popup3 {
+         left: 37.7%;
+         width: 40.4%;
+         height: 18%;
+     }
+     #popup4 {
+         left: 37.7%;
+         width: 40.4%;
+         height: 18%;
+     }
+ }
+
+ @media (device-width: 1536px) and (device-height: 864px) {
+
+    .chromebook #playAudio_song2 {
+        left: 20.6% !important;
+        top: 34px !important;
+        width: 62px !important;
+        height: 64px !important;
+    }
+
+    .chromebook #playAudio_song1 {
+        left: 16% !important;
+        top: 34px !important;
+        width: 62px !important;
+        height: 64px !important;
+    }
+     .chromebook #popup5.clicked{
+      height:83% !important;
+      left: 15% !important;
+      top: 2% !important;
+      width: 70.2% !important;
+  }
+}

@@ -1,0 +1,72 @@
+﻿@page "/welcomeback"
+@model LearnEnglish.Pages.WelcomeBack.welcomebackModel
+@{
+}
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/chapters/welcomeback/welcomeback/welcomeback.css">
+</head>
+
+<body>
+          
+            <input type="button" tabindex="2" id="playAudio_song1" data-audio-src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/WelcomeBack/audio/Hello_How_Are_You_MASTER_v1" data-popupid="popup3" data-audio-highlight="true" name="playSong" pdfFieldName="playAudio g2_1_2" onclick="playAudio(this); song_setIndex(); viewAedioTextSong();" class="LearnNew_Rap playButton" style="cursor:pointer;" />
+            <input type="button" tabindex="2" id="playAudio_song2" data-audio-src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/WelcomeBack/audio/Hello_how_are_you_SINGBACK_MASTER_v1" data-popupid="popup3" data-audio-highlight="true" name="playSong" pdfFieldName="playAudio g2_1_2" onclick="playAudio(this); song_setIndex(); viewAedioTextSong();" class="LearnNew_Rap playButton" style="cursor:pointer;" />
+            <input type="button" id="closeBtn" class="closeBtn" onclick="song_clearIndex(); txtbgColorSong();" style="opacity:0" />
+            <img id="popup3" src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/WelcomeBack/page1/img/popupSong.png" data-top="0%" class="popup" />
+            <img id="popup1" src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/WelcomeBack/page1/img/popup1.png" data-top="0%" onclick="showImage(this.id)" class="popup" />
+            <label id="txtbgColor" data-seekTimeStart="25" class="bgColor"></label>
+            <label id="line_1" data-seekTimeStart="0" data-rhymes="true" data-seekTimeEnd="3.851" class="labelSong songText animated" style="top:54%" data-top="54">Hello, how are you?</label>
+            <label id="line_2" data-seekTimeStart="2.9" data-rhymes="true" data-seekTimeEnd="06.370" class="labelSong songText animated" style="top:54%" data-top="54">Hello, how are you?</label>
+            <label id="line_3" data-seekTimeStart="4.92" data-rhymes="true" data-seekTimeEnd="09.620" class="labelSong songText animated" style="top:54%" data-top="54">Hello, how are you?</label>
+            <label id="line_4" data-seekTimeStart="8.48" data-rhymes="true" data-seekTimeEnd="09.620" class="labelSong songText animated" style="top:54%" data-top="54"></label>
+            <label id="line_5" data-seekTimeStart="8.48" data-rhymes="true" data-seekTimeEnd="10.626" class="labelSong songText animated" style="top:54%" data-top="54">I’m great,</label>
+            <label id="line_6" data-seekTimeStart="9.67" data-rhymes="true" data-seekTimeEnd="11.738" class="labelSong songText animated" style="top:550px" data-top="54">I’m fine,</label>
+            <label id="line_7" data-seekTimeStart="10.79" data-rhymes="true" data-seekTimeEnd="12.736" class="labelSong songText animated" style="top:550px" data-top="54">I’m ok,</label>
+            <label id="line_8" data-seekTimeStart="11.76" data-rhymes="true" data-seekTimeEnd="13.904" class="labelSong songText animated" style="top:550px" data-top="54">I’m happy,</label>
+            <label id="line_9" data-seekTimeStart="13.09" data-rhymes="true" data-seekTimeEnd="16.836" class="labelSong songText animated" style="top:550px" data-top="54">I’m wonderful today.</label>
+            <label id="line_10" data-seekTimeStart="17.89" data-rhymes="true" data-seekTimeEnd="18.817" class="labelSong songText animated" style="top:550px" data-top="54"></label>
+            <label id="line_11" data-seekTimeStart="17.89" data-rhymes="true" data-seekTimeEnd="20.606" class="labelSong songText animated" style="top:550px" data-top="54">Hello, how are you?</label>
+            <label id="line_12" data-seekTimeStart="19.67" data-rhymes="true" data-seekTimeEnd="23.041" class="labelSong songText animated" style="top:550px" data-top="54">Hello, how are you?</label>
+            <label id="line_13" data-seekTimeStart="22.11" data-rhymes="true" data-seekTimeEnd="25.268" class="labelSong songText animated" style="top:550px" data-top="54">Hello, how are you?</label>
+            <label id="line_14" data-seekTimeStart="25.38" data-rhymes="true" data-seekTimeEnd="26.324" class="labelSong songText animated" style="top:550px" data-top="54"></label>
+            <label id="line_15" data-seekTimeStart="25.38" data-rhymes="true" data-seekTimeEnd="27.329" class="labelSong songText animated" style="top:550px" data-top="54">I’m tired,</label>
+            <label id="line_16" data-seekTimeStart="26.44" data-rhymes="true" data-seekTimeEnd="28.356" class="labelSong songText animated" style="top:550px" data-top="54">I’m bored,</label>
+            <label id="line_17" data-seekTimeStart="27.45" data-rhymes="true" data-seekTimeEnd="29.432" class="labelSong songText animated" style="top:550px" data-top="54">I’m ok,</label>
+            <label id="line_18" data-seekTimeStart="28.49" data-rhymes="true" data-seekTimeEnd="30.754" class="labelSong songText animated" style="top:550px" data-top="54">I’m angry,</label>
+            <label id="line_19" data-seekTimeStart="29.71" data-rhymes="true" data-seekTimeEnd="33.729" class="labelSong songText animated" style="top:550px" data-top="54">I’m very sad today.</label>
+            <label id="line_20" data-seekTimeStart="34.57" data-rhymes="true" data-seekTimeEnd="35.472" class="labelSong songText animated" style="top:550px" data-top="54"></label>
+            <label id="line_21" data-seekTimeStart="34.57" data-rhymes="true" data-seekTimeEnd="37.491" class="labelSong songText animated" style="top:550px" data-top="54">Hello, how are you?</label>
+            <label id="line_22" data-seekTimeStart="36.65" data-rhymes="true" data-seekTimeEnd="39.39" class="labelSong songText animated" style="top:550px" data-top="54">Hello, how are you?</label>
+            <label id="line_23" data-seekTimeStart="38.79" data-rhymes="true" data-seekTimeEnd="41.936" class="labelSong songText animated" style="top:550px" data-top="54">Hello, how are you?</label>
+            <label id="line_24" data-seekTimeStart="42.06" data-rhymes="true" data-seekTimeEnd="42.962" class="labelSong songText animated" style="top:550px" data-top="54"></label>
+            <label id="line_25" data-seekTimeStart="42.05" data-rhymes="true" data-seekTimeEnd="47.224" class="labelSong songText animated" style="top:550px" data-top="54">I’m very well today, thank you!</label>
+            <div id="contentContainer">
+                <div id="jpedal" style="overflow: hidden; position: relative; width: 1160px; height: 1190px;">
+                    <!-- Begin text definitions (Positioned/styled in CSS) -->
+                    <div id="t1_2" class="t s1_2">WELCOME BACK </div>
+                    <div id="t2_2" class="t s2_2">WELCOME BACK</div>
+                    <div id="t3_2" class="t s3_2">WELCOME BACK</div>
+                    <div id="t4_2" class="t s4_2">WELCOME BACK</div>
+                    <div id="t5_2" class="t s5_2">1</div>
+                    <div id="t6_2" class="t s6_2"><a onclick="javascript:window.top.close()" style="cursor:pointer">LOGGA UT</a></div>
+                    <div id="tvalj1" class="t s6_2">VÄLJ KAPITEL</div>
+                    <!-- End text definitions -->
+                    <form>
+                        <input type="button" tabindex="1" id="index" onclick="location.href='/'" style="cursor:pointer;" title="Index" />
+                        <input type="button" tabindex="2" id="page1" onclick="location.href='/welcomeback/page1'" style="cursor:pointer;" title="Page-1" />
+                        <input type="button" tabindex="3" id="page2" onclick="location.href='/welcomeback/page2'" style="cursor:pointer;" title="Page-2" />
+
+                        <input type="button" tabindex="2" id="playAudio_1_3" data-popupid="popup3" onclick="song_setIndex(); showImage('popup3'); viewAedioTextSong();" class="playButton" style="cursor:pointer;" />
+                    </form>
+                    <!-- Begin page background -->
+                    <div id="pg2Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+                    <div id="pg2">                       
+                        <object width="1160" height="1190" data="~/chapters/welcomeback/welcomeback/2.svg" type="image/svg+xml" id="svgImage" style="width:1160px; height:1190px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object>
+                    </div>
+                </div>
+            </div>   
+
+</body>
+
+

@@ -1,0 +1,129 @@
+﻿@page "/wildanimals/page6"
+@model LearnEnglish.Pages.chapters.wildanimals.page6Model
+@{
+}
+
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/chapters/wildanimals/page6/page6.css">
+</head>
+
+<body>
+    <input type="button" tabindex="2" id="playAudio_song1" data-audio-src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/wildanimals/audio/Wild_animals_MASTER_v2" data-popupid="popup3" data-audio-highlight="true" name="playSong" pdfFieldName="playAudio g2_1_2" onclick="playAudio(this); song_setIndex(); viewAedioTextSong();" class="LearnNew_Rap playButton popup1" style="cursor:pointer;" />
+    <input type="button" tabindex="2" id="playAudio_song2" data-audio-src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/wildanimals/audio/Wild_animals_SINGBACK_MASTER_v2" data-popupid="popup3" data-audio-highlight="true" name="playSong" pdfFieldName="playAudio g2_1_2" onclick="playAudio(this); song_setIndex(); viewAedioTextSong();" class="LearnNew_Rap playButton popup1" style="cursor:pointer;" />
+    <input type="button" id="closeBtn" class="closeBtn" onclick="song_clearIndex(); txtbgColorSong();" style="opacity:0" />
+    <img id="popup3" src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/wildanimals/page6/img/popupSong.png" data-top="0%" class="popup" />
+    <img id="popup1" src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/wildanimals/page6/img/popup1.png" data-imgurl="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/wildanimals/page6/img/popup1.png" data-top="0%" onclick="showImage(this.id)" class="popup" />
+    <img id="popup2" src="https://majemastoragelive.blob.core.windows.net/learn-english-test/ebook/Grade3/wildanimals/page6/img/popup2.png" data-top="0%" onclick="showImage(this.id)" class="popup" />
+    <label id="txtbgColor" data-seekTimeStart="34" class="bgColor"></label>
+    <label id="line_1" data-seekTimeStart="0" data-rhymes="true" data-seekTimeEnd="3.832" class="labelSong songText animated" style="top:54%" data-top="54">– Stomp like elephants!</label>
+    <label id="line_2" data-seekTimeStart="2.86" data-rhymes="true" data-seekTimeEnd="5.817" class="labelSong songText animated" style="top:54%" data-top="54">Let's go to the zoo,</label>
+    <label id="line_3" data-seekTimeStart="4.95" data-rhymes="true" data-seekTimeEnd="8.383" class="labelSong songText animated" style="top:54%" data-top="54">and stomp like the elephants do.</label>
+    <label id="line_4" data-seekTimeStart="7.45" data-rhymes="true" data-seekTimeEnd="11.257" class="labelSong songText animated" style="top:54%" data-top="54">– Stomp, stomp, stomp, stomp, stomp, stomp!</label>
+    <label id="line_5" data-seekTimeStart="10.25" data-rhymes="true" data-seekTimeEnd="13.002" class="labelSong songText animated" style="top:54%" data-top="54">Let's go to the zoo,</label>
+    <label id="line_6" data-seekTimeStart="12.38" data-rhymes="true" data-seekTimeEnd="15.739" class="labelSong songText animated" style="top:550px" data-top="54">and stomp like the elephants do.</label>
+    <label id="line_7" data-seekTimeStart="15.18" data-rhymes="true" data-seekTimeEnd="18.51" class="labelSong songText animated" style="top:550px" data-top="54">– Stomp, stomp, stomp, stomp, stomp, stomp!</label>
+    <label id="line_8" data-seekTimeStart="19.9" data-rhymes="true" data-seekTimeEnd="20.802" class="labelSong songText animated" style="top:550px" data-top="54"></label>
+    <label id="line_9" data-seekTimeStart="19.9" data-rhymes="true" data-seekTimeEnd="22.308" class="labelSong songText animated" style="top:550px" data-top="54">– Jump like kangaroos!</label>
+    <label id="line_10" data-seekTimeStart="21.34" data-rhymes="true" data-seekTimeEnd="24.19" class="labelSong songText animated" style="top:550px" data-top="54">Let's go to the zoo,</label>
+    <label id="line_11" data-seekTimeStart="23.43" data-rhymes="true" data-seekTimeEnd="26.859" class="labelSong songText animated" style="top:550px" data-top="54">and jump like the kangaroos do.</label>
+    <label id="line_12" data-seekTimeStart="25.96" data-rhymes="true" data-seekTimeEnd="29.596" class="labelSong songText animated" style="top:550px" data-top="54">– Jump, jump, jump, jump, jump, jump!</label>
+    <label id="line_13" data-seekTimeStart="28.74" data-rhymes="true" data-seekTimeEnd="31.58" class="labelSong songText animated" style="top:550px" data-top="54">Let's go to the zoo,</label>
+    <label id="line_14" data-seekTimeStart="30.82" data-rhymes="true" data-seekTimeEnd="34.214" class="labelSong songText animated" style="top:550px" data-top="54">and jump like the kangaroos do.</label>
+    <label id="line_15" data-seekTimeStart="33.32" data-rhymes="true" data-seekTimeEnd="37.294" class="labelSong songText animated" style="top:550px" data-top="54">– Jump, jump, jump, jump, jump, jump!</label>
+    <label id="line_16" data-seekTimeStart="38.34" data-rhymes="true" data-seekTimeEnd="39.244" class="labelSong songText animated" style="top:550px" data-top="54"></label>
+    <label id="line_17" data-seekTimeStart="38.34" data-rhymes="true" data-seekTimeEnd="40.682" class="labelSong songText animated" style="top:550px" data-top="54">– Swing like monkeys!</label>
+    <label id="line_18" data-seekTimeStart="39.78" data-rhymes="true" data-seekTimeEnd="42.803" class="labelSong songText animated" style="top:550px" data-top="54">Let's go to the zoo,</label>
+    <label id="line_19" data-seekTimeStart="41.87" data-rhymes="true" data-seekTimeEnd="44.788" class="labelSong songText animated" style="top:550px" data-top="54">and swing like the monkeys do.</label>
+    <label id="line_20" data-seekTimeStart="43.92" data-rhymes="true" data-seekTimeEnd="48.106" class="labelSong songText animated" style="top:550px" data-top="54">– Swing, swing, swing, swing, swing, swing, swing!</label>
+    <label id="line_21" data-seekTimeStart="47.24" data-rhymes="true" data-seekTimeEnd="49.954" class="labelSong songText animated" style="top:550px" data-top="54">Let's go to the zoo,</label>
+    <label id="line_22" data-seekTimeStart="49.12" data-rhymes="true" data-seekTimeEnd="52.11" class="labelSong songText animated" style="top:550px" data-top="54">and swing like the monkeys do.</label>
+    <label id="line_23" data-seekTimeStart="51.28" data-rhymes="true" data-seekTimeEnd="55.605" class="labelSong songText animated" style="top:550px" data-top="54">– Swing, swing, swing, swing, swing, swing, swing!</label>
+    <label id="line_24" data-seekTimeStart="56.75" data-rhymes="true" data-seekTimeEnd="57.651" class="labelSong songText animated" style="top:550px" data-top="54"></label>
+    <label id="line_25" data-seekTimeStart="56.75" data-rhymes="true" data-seekTimeEnd="59.157" class="labelSong songText animated" style="top:550px" data-top="54">– Waddle like penguins!</label>
+    <label id="line_26" data-seekTimeStart="58.26" data-rhymes="true" data-seekTimeEnd="61.005" class="labelSong songText animated" style="top:550px" data-top="54">Let's go to the zoo,</label>
+    <label id="line_27" data-seekTimeStart="60.38" data-rhymes="true" data-seekTimeEnd="63.366" class="labelSong songText animated" style="top:550px" data-top="54">and waddle like the penguins do.</label>
+    <label id="line_28" data-seekTimeStart="62.43" data-rhymes="true" data-seekTimeEnd="66.582" class="labelSong songText animated" style="top:550px" data-top="54">– Waddle, waddle, waddle, waddle, waddle, waddle, waddle!</label>
+    <label id="line_29" data-seekTimeStart="65.68" data-rhymes="true" data-seekTimeEnd="68.362" class="labelSong songText animated" style="top:550px" data-top="54">Let's go to the zoo,</label>
+    <label id="line_30" data-seekTimeStart="67.67" data-rhymes="true" data-seekTimeEnd="70.62" class="labelSong songText animated" style="top:550px" data-top="54">and waddle like the penguins do.</label>
+    <label id="line_31" data-seekTimeStart="69.75" data-rhymes="true" data-seekTimeEnd="73.972" class="labelSong songText animated" style="top:550px" data-top="54">– Waddle, waddle, waddle, waddle, waddle, waddle, waddle!</label>
+    <label id="line_32" data-seekTimeStart="73.07" data-rhymes="true" data-seekTimeEnd="79.242" class="labelSong songText animated" style="top:550px" data-top="54">Let's go to the zoo, and dance like the animals do.</label>
+    <label id="line_33" data-seekTimeStart="80.39" data-rhymes="true" data-seekTimeEnd="81.363" class="labelSong songText animated" style="top:550px" data-top="54"></label>
+    <label id="line_34" data-seekTimeStart="80.39" data-rhymes="true" data-seekTimeEnd="120.163" class="labelSong songText animated" style="top:550px" data-top="54">Let's go to the zoo, and dance like the animals do.</label>
+    <div id="contentContainer">
+        <div id="jpedal" style="overflow: hidden; position:relative; width: 1160px; height: 1190px;">
+            <!-- Begin text definitions (Positioned/styled in CSS) -->
+            <div id="t1_8" class="t s1_8">Chapter 3 </div>
+            <div id="t2_8" class="t s1_8">Wild Animals</div>
+            <div id="t3_8" class="t s2_8">Interview</div>
+            <div id="t4_8" class="t s3_8">Yes, I have.</div>
+            <div id="t5_8" class="t s3_8">No, I haven’t.</div>
+            <div id="t6_8" class="t s3_8">Have you seen a wolf?</div>
+            <div id="t7_8" class="t s4_8">Name:</div>
+            <div id="t8_8" class="t s4_8">Name:</div>
+            <div id="t9_8" class="t s4_8">Name:</div>
+            <div id="ta_8" class="t s5_8">Yes</div>
+            <div id="tb_8" class="t s5_8">No</div>
+            <div id="tc_8" class="t s5_8">Yes</div>
+            <div id="td_8" class="t s5_8">No</div>
+            <div id="te_8" class="t s5_8">Yes</div>
+            <div id="tf_8" class="t s5_8">No</div>
+            <div id="tg_8" class="t s5_8">Yes</div>
+            <div id="th_8" class="t s5_8">No</div>
+            <div id="ti_8" class="t s5_8">Yes</div>
+            <div id="tj_8" class="t s5_8">No</div>
+            <div id="tk_8" class="t s5_8">Yes</div>
+            <div id="tl_8" class="t s5_8">No</div>
+            <div id="tm_8" class="t s5_8">Yes</div>
+            <div id="tn_8" class="t s5_8">No</div>
+            <div id="to_8" class="t s5_8">Yes</div>
+            <div id="tp_8" class="t s5_8">No</div>
+            <div id="tq_8" class="t s5_8">Yes</div>
+            <div id="tr_8" class="t s5_8">No</div>
+            <div id="ts_8" class="t s4_8">Name:</div>
+            <div id="tt_8" class="t s4_8">Name:</div>
+            <div id="tu_8" class="t s4_8">Name:</div>
+            <div id="tv_8" class="t s4_8">Name:</div>
+            <div id="tw_8" class="t s4_8">Name:</div>
+            <div id="tx_8" class="t s4_8">Name:</div>
+            <div id="ty_8" class="t s6_8">My favourite animal is</div>
+            <div id="tz_8" class="t s6_8">because</div>
+            <div id="t10_8" class="t m1_8 s7_8">R</div>
+            <div id="t11_8" class="t m2_8 s7_8">e</div>
+            <div id="t12_8" class="t m3_8 s7_8">a</div>
+            <div id="t13_8" class="t m4_8 s7_8">d</div>
+            <div id="t14_8" class="t m5_8 s7_8">t</div>
+            <div id="t15_8" class="t m6_8 s7_8">o</div>
+            <div id="t16_8" class="t m7_8 s7_8">a</div>
+            <div id="t17_8" class="t m8_8 s7_8">f</div>
+            <div id="t18_8" class="t m9_8 s7_8">r</div>
+            <div id="t19_8" class="t m10_8 s7_8">i</div>
+            <div id="t1a_8" class="t m11_8 s7_8">e</div>
+            <div id="t1b_8" class="t m12_8 s7_8">n</div>
+            <div id="t1c_8" class="t m13_8 s7_8">d</div>
+            <div id="t1d_8" class="t s8_8">WILD ANIMALS</div>
+            <div id="t1e_8" class="t s9_8">WILD ANIMALS</div>
+            <div id="t1f_8" class="t s10_8">3</div>
+            <div id="t1g_8" class="t s11_8"><a onclick="javascript:window.top.close()" style="cursor:pointer">LOGGA UT</a></div>
+            <div id="tvalj1" class="t s11_8">VÄLJ KAPITEL</div>
+            <div id="tvalj2" class="t s11_8">VÄLJ SIDA</div>
+            <!-- End text definitions -->
+            <!-- Begin page background -->
+            <form>
+                <input type="button" tabindex="1" id="call_page3_1" onclick="location.href='/index'" style="cursor:pointer;" title="Index" />
+                <input type="button" tabindex="2" id="call_page3_2" onclick="location.href='/wildanimals'" style="cursor:pointer;" title="Wild Animals" />
+                <input type="button" tabindex="3" id="call_page3_3" onclick="location.href='/wildanimals/page5'" style="cursor:pointer;" title="Previous" />
+                <input type="button" tabindex="4" id="playAudio_1_5" data-popupid="popup3" onclick="song_setIndex(); showImage('popup3'); viewAedioTextSong();" class="playButton popup1" style="cursor:pointer;" />
+                <input type="button" tabindex="5" id="ballon_wildanimals" onclick="location.href='/balloon?type=wildanimals&&chapter=wild animal'" style="cursor:pointer;">
+            </form>
+            <div id="pg8Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+            <div id="pg8">
+                <object width="1160" height="1190" data="~/chapters/wildanimals/page6/8.svg" type="image/svg+xml" id="svgImage" style="width:1160px; height:1190px; background-color:white; -moz-transform:scale(1); z-index: 0;"></object>
+            </div>
+        </div>
+        <div id="rightSide" style="height: auto;width: auto;right:0;"></div>
+    </div>
+
+</body>
+

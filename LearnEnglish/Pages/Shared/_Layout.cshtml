@@ -1,0 +1,100 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn English Third Book-1</title>
+    <link rel="icon" type="image/x-icon" href="https://majemastoragetest.blob.core.windows.net/learn-english-test/ebook/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="~/css/pages/IDRViewer.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/pages/jplayer.min.css" />
+
+</head>
+
+<body class="noselect">
+    <div id="hide"></div>
+    <div id="left">
+        <div id="leftNav">
+            <div id="btnThumbnails" onclick="IDRViewer.toggleOutlines(false)" title="Thumbnails" class="navBtn inactive"></div>
+            <div id="btnOutlines" onclick="IDRViewer.toggleOutlines(true)" title="Bookmarks" class="navBtn inactive"></div>
+        </div>
+        <div id="leftContent">
+            <!-- <div id="thumbnailPanel"></div> -->
+            <div id="outlinePanel"></div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainNav">
+            <div id="btnSideToggle" onclick="IDRViewer.toggleThumbnails();" class="navBtn">
+                <div title="Sidebar"></div>
+            </div>
+            <div id="btnPrev" title="Previous Page" onclick="IDRViewer.prev()" class="navBtn"></div>
+            <select id="goBtn" onchange="IDRViewer.goToPage(0)">
+            </select>
+            <span id="pgCount"></span>
+            <div id="btnNext" title="Next Page" onclick="IDRViewer.next()" class="navBtn"></div>
+            <div id="btnSelect" title="Select" onclick="IDRViewer.setSelectMode(0)" class="navBtn"></div>
+            <div id="btnMove" title="Pan" onclick="IDRViewer.setSelectMode(1)" class="navBtn"></div>
+            <div id="btnZoomOut" title="Zoom Out" onclick="IDRViewer.zoomOut()" class="navBtn"></div>
+            <select id="zoomBtn" onchange="IDRViewer.zoomUpdate()">
+                <option value="0">100%</option>
+                <option value="1">Actual Size</option>
+                <option value="2">Fit Width</option>
+                <option value="3">Fit Height</option>
+                <option value="4">Fit Page</option>
+                <option value="5">Automatic</option>
+            </select>
+            <div id="btnZoomIn" title="Zoom In" onclick="IDRViewer.zoomIn()" class="navBtn"></div>
+            <div id="btnFullscreen" title="Fullscreen" onclick="IDRViewer.toggleFullScreen();" class="navBtn closed"></div>
+        </div>
+        <div id="mainContent">
+            <div id="leftSide" style="height: auto;width: auto;left:0;"></div>
+            <div id="divOverlay" onclick="song_clearIndex(); closeAllPopups(); txtbgColorSong();"></div>
+            <div id="audioPlayer" class="audioPlayer">
+                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                    <div class="jp-type-single aligncenter">
+                        <div class="jp-gui jp-interface">
+                            <div class="jp-controls">
+                                <button class="jp-play" role="button" tabindex="0">play</button>
+                                <button class="jp-stop" role="button" tabindex="0">stop</button>
+                            </div>
+                            <div class="jp-progress">
+                                <div id="jplayer_total_time" class="jp-total-time hidden">00:00</div>
+                                <div class="jp-seek-bar" style="width: 100%;">
+                                    <div class="jp-play-bar" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                            <div class="jp-volume-controls">
+                                <div class="jp-volume-bar">
+                                    <div class="jp-volume-bar-value" style="width: 80%;"></div>
+                                </div>
+                                <button class="jp-mute" role="button" tabindex="0">mute</button>
+                                <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @RenderBody()
+        </div>
+    </div>
+
+
+    <script src="~/js/pages/jquery.min.js"></script>
+    <script src="~/js/pages/bootstrap.min.js"></script>
+    <script src="~/js/pages/jquery.jplayer.min.js"></script>
+    <script src="~/js/pages/dom-extensions.min.js" type="text/javascript"></script>
+    <script src="~/js/pages/app.js" type="text/javascript"></script>
+    <script src="~/js/pages/init_app.min.js" type="text/javascript"></script>
+    <script src="~/js/pages/IDRViewer.min.js" type="text/javascript"></script>
+    <script src="~/js/pages/mac.min.js" type="text/javascript"></script>
+
+    <script src="//rum-static.pingdom.net/pa-5aa8a4540b34680007000485.js" async></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
